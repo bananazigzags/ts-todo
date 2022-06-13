@@ -1,0 +1,11 @@
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  font-size: 24px;
+}

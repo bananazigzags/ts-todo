@@ -1,0 +1,29 @@
+.todo {
+  padding: 10px;
+  border: 1px solid #FFA384;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.edit-input, .todo-name {
+  margin: 10px 20px;
+}
+
+.edit-input {
+  width: 200px;
+}
+
+.completed {
+  color: #FFA384;
+  text-decoration: line-through;
+}
+
+.menu-btn, .star-svg {
+  height: 35px;
+  width: 35px;
+}

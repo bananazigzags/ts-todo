@@ -1,0 +1,31 @@
+.filters {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF8882;
+  color:#543855;
+  margin-bottom: 20px;
+}
+
+.navbar li {
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.active {
+  font-weight: bold;
+  background-color: #FFA384;
+}

@@ -1,0 +1,8 @@
+.edit-input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-input {
+  height: auto
+}
