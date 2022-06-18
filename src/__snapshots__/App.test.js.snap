@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app component renders app 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div
+      class="navbar"
+    >
+      <h1>
+        ДЕЛА
+      </h1>
+      <ul
+        class="filters"
+      >
+        <li
+          id="pending"
+        >
+          В работе
+        </li>
+        <li
+          id="favorites"
+        >
+          Избранные
+        </li>
+        <li
+          id="completed"
+        >
+          Выполненные
+        </li>
+      </ul>
+    </div>
+    <div
+      class="todo-input-block"
+    >
+      <div
+        class="todo-input"
+      >
+        <input
+          type="text"
+          value=""
+        />
+        <button
+          class="add-btn"
+          type="button"
+        >
+           Добавить
+        </button>
+      </div>
+    </div>
+    <div
+      class="todos"
+    />
+  </div>
+</div>
+`;

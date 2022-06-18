@@ -34,7 +34,7 @@ export const Todo: React.FC<TodoProps> = ({name, onMenuOpen, id}) => {
   }
 
   return (
-    <div className="todo">
+    <div className="todo" data-testid="todo">
       {todo.isEdited
       ?<EditInput 
         editedTodo={editedTodo}

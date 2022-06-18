@@ -3,17 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware,} from 'redux'
-import { rootReducer } from './redux/rootReducer';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import { store } from './redux/store/store';
 
-export const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));
-
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <Provider store={store}>
     <App />
